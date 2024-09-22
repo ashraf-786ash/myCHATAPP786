@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* Reset default styling and ensure full height */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+/* Fullscreen video */
+video {
+  position: absolute;
+  inset: 0; /* This sets top, right, bottom, left to 0 */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Center container */
+.relative {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Styling for the login form */
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Input styling */
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Styling the form title */
+.form-container h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+
+
+/*dark mode looking scroolbar*/
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#555;
+}
+
+::-webkit-scrollbar-thumb{
+  background: black;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #242424;
+}
