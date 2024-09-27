@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './App.css';
-import Login from './pages/login/login';
-import SignUp from './pages/signup/signup';
-import Home from './pages/home/home';
+import Login from './pages/login/Login';
+import SignUp from './pages/signup/SignUp';
+import Home from './pages/home/Home';
 import {Navigate, Routes, Route } from 'react-router-dom'; // Correct import for Routes and Route
 import{Toaster} from 'react-hot-toast';
 import { useAuthContext } from './context/Authcontext';
