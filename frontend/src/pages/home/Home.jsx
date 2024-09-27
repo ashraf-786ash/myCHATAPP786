@@ -12,11 +12,11 @@ const Home = () => {
         muted 
         className='absolute inset-0 w-full h-full object-cover -z-10'
       >
-        <source src="Ashrafff.mp4" type="video/mp4" />
+        <source src="final.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>      
       {/* Main content */}
-      <div className='flex sm:h-[450px] md:h-[550px] rounded-lg overflow-hidden bg-gray-400 bg-clip-padding 
+      <div className='flex sm:h-[450px] md:h-[650px] rounded-lg overflow-hidden bg-gray-400 bg-clip-padding 
   backdrop-filter backdrop-blur-lg bg-opacity-0'>
       <Sidebar/>
       <MessageContainer/>
